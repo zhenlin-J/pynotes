@@ -1,0 +1,771 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>numpy · 行者</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="kin">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="pandas.html" />
+    
+    
+    <link rel="prev" href="matplotlib.html" />
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    gitbook框架搭建
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="gitbook框架搭建.html">
+            
+                <a href="gitbook框架搭建.html">
+            
+                    
+                    gitbook框架搭建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2" data-path="gitbook简单使用.html">
+            
+                <a href="gitbook简单使用.html">
+            
+                    
+                    gitbook使用的语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="python开发环境搭建.html">
+            
+                <a href="python开发环境搭建.html">
+            
+                    
+                    python开发环境搭建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="MySQL.html">
+            
+                <a href="MySQL.html">
+            
+                    
+                    MySQL
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="数据库简介.html">
+            
+                <a href="数据库简介.html">
+            
+                    
+                    数据库简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="SQL语句.html">
+            
+                <a href="SQL语句.html">
+            
+                    
+                    SQL语句
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="数据库设计.html">
+            
+                <a href="数据库设计.html">
+            
+                    
+                    数据库设计
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="Python MySQL.html">
+            
+                <a href="Python MySQL.html">
+            
+                    
+                    Python MySQL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="MySQL高级.html">
+            
+                <a href="MySQL高级.html">
+            
+                    
+                    MySQL高级
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="数据分析.html">
+            
+                <a href="数据分析.html">
+            
+                    
+                    数据分析
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="matplotlib.html">
+            
+                <a href="matplotlib.html">
+            
+                    
+                    matplotlib
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.2" data-path="numpy.html">
+            
+                <a href="numpy.html">
+            
+                    
+                    numpy
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="pandas.html">
+            
+                <a href="pandas.html">
+            
+                    
+                    pandas
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="机器学习.html">
+            
+                <a href="机器学习.html">
+            
+                    
+                    机器学习
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="特征工程.html">
+            
+                <a href="特征工程.html">
+            
+                    
+                    特征工程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1.1" data-path="特征抽取.html">
+            
+                <a href="特征抽取.html">
+            
+                    
+                    特征抽取
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.2" data-path="特征预处理.html">
+            
+                <a href="特征预处理.html">
+            
+                    
+                    特征预处理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.3" data-path="特征降维.html">
+            
+                <a href="特征降维.html">
+            
+                    
+                    特征降维
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="机器学习算法概述.html">
+            
+                <a href="机器学习算法概述.html">
+            
+                    
+                    算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <a target="_blank" href="http://zh.d2l.ai/index.html">
+            
+                    
+                    深度学习导论(STAT 157)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <a target="_blank" href="https://www.bilibili.com/">
+            
+                    
+                    学习使我快乐
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >numpy</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="numpy&#x4E2D;&#x6587;&#x6587;&#x6863;-"><a href="https://www.numpy.org.cn/index.html" target="_blank">numpy&#x4E2D;&#x6587;&#x6587;&#x6863;</a> <br></h1>
+<h3 id="&#x4EC0;&#x4E48;&#x662F;numpy-">&#x4EC0;&#x4E48;&#x662F;numpy <br></h3>
+<p>NumPy&#x662F;&#x4E00;&#x4E2A;&#x529F;&#x80FD;&#x5F3A;&#x5927;&#x7684;Python&#x5E93;&#xFF0C;&#x4E3B;&#x8981;&#x7528;&#x4E8E;&#x5BF9;&#x591A;&#x7EF4;&#x6570;&#x7EC4;&#x6267;&#x884C;&#x8BA1;&#x7B97;&#x3002;NumPy&#x8FD9;&#x4E2A;&#x8BCD;&#x6765;&#x6E90;&#x4E8E;&#x4E24;&#x4E2A;&#x5355;&#x8BCD;<code>Numerical</code>&#x548C;<code>Python</code>&#x3002;NumPy&#x63D0;&#x4F9B;&#x4E86;&#x5927;&#x91CF;&#x7684;&#x5E93;&#x51FD;&#x6570;&#x548C;&#x64CD;&#x4F5C;&#xFF0C;&#x53EF;&#x4EE5;&#x5E2E;&#x52A9;&#x7A0B;&#x5E8F;&#x5458;&#x8F7B;&#x677E;&#x5730;&#x8FDB;&#x884C;&#x6570;&#x503C;&#x8BA1;&#x7B97;&#x3002;&#x8FD9;&#x7C7B;&#x6570;&#x503C;&#x8BA1;&#x7B97;&#x5E7F;&#x6CDB;&#x7528;&#x4E8E;&#x4EE5;&#x4E0B;&#x4EFB;&#x52A1;&#xFF1A; <br></p>
+<ul>
+<li>&#x673A;&#x5668;&#x5B66;&#x4E60;&#x6A21;&#x578B;&#xFF1A;&#x5728;&#x7F16;&#x5199;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x7B97;&#x6CD5;&#x65F6;&#xFF0C;&#x9700;&#x8981;&#x5BF9;&#x77E9;&#x9635;&#x8FDB;&#x884C;&#x5404;&#x79CD;&#x6570;&#x503C;&#x8BA1;&#x7B97;&#x3002;&#x4F8B;&#x5982;&#x77E9;&#x9635;&#x4E58;&#x6CD5;&#x3001;&#x6362;&#x4F4D;&#x3001;&#x52A0;&#x6CD5;&#x7B49;&#x3002;NumPy&#x63D0;&#x4F9B;&#x4E86;&#x4E00;&#x4E2A;&#x975E;&#x5E38;&#x597D;&#x7684;&#x5E93;&#xFF0C;&#x7528;&#x4E8E;&#x7B80;&#x5355;(&#x5728;&#x7F16;&#x5199;&#x4EE3;&#x7801;&#x65B9;&#x9762;)&#x548C;&#x5FEB;&#x901F;(&#x5728;&#x901F;&#x5EA6;&#x65B9;&#x9762;)&#x8BA1;&#x7B97;&#x3002;NumPy&#x6570;&#x7EC4;&#x7528;&#x4E8E;&#x5B58;&#x50A8;&#x8BAD;&#x7EC3;&#x6570;&#x636E;&#x548C;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x6A21;&#x578B;&#x7684;&#x53C2;&#x6570;&#x3002;<br></li>
+<li>&#x56FE;&#x50CF;&#x5904;&#x7406;&#x548C;&#x8BA1;&#x7B97;&#x673A;&#x56FE;&#x5F62;&#x5B66;&#xFF1A;&#x8BA1;&#x7B97;&#x673A;&#x4E2D;&#x7684;&#x56FE;&#x50CF;&#x8868;&#x793A;&#x4E3A;&#x591A;&#x7EF4;&#x6570;&#x5B57;&#x6570;&#x7EC4;&#x3002;NumPy&#x6210;&#x4E3A;&#x540C;&#x6837;&#x60C5;&#x51B5;&#x4E0B;&#x6700;&#x81EA;&#x7136;&#x7684;&#x9009;&#x62E9;&#x3002;&#x5B9E;&#x9645;&#x4E0A;&#xFF0C;NumPy&#x63D0;&#x4F9B;&#x4E86;&#x4E00;&#x4E9B;&#x4F18;&#x79C0;&#x7684;&#x5E93;&#x51FD;&#x6570;&#x6765;&#x5FEB;&#x901F;&#x5904;&#x7406;&#x56FE;&#x50CF;&#x3002;&#x4F8B;&#x5982;&#xFF0C;&#x955C;&#x50CF;&#x56FE;&#x50CF;&#x3001;&#x6309;&#x7279;&#x5B9A;&#x89D2;&#x5EA6;&#x65CB;&#x8F6C;&#x56FE;&#x50CF;&#x7B49;&#x3002; <br></li>
+<li>&#x6570;&#x5B66;&#x4EFB;&#x52A1;&#xFF1A;NumPy&#x5BF9;&#x4E8E;&#x6267;&#x884C;&#x5404;&#x79CD;&#x6570;&#x5B66;&#x4EFB;&#x52A1;&#x975E;&#x5E38;&#x6709;&#x7528;&#xFF0C;&#x5982;&#x6570;&#x503C;&#x79EF;&#x5206;&#x3001;&#x5FAE;&#x5206;&#x3001;&#x5185;&#x63D2;&#x3001;&#x5916;&#x63A8;&#x7B49;&#x3002;&#x56E0;&#x6B64;&#xFF0C;&#x5F53;&#x6D89;&#x53CA;&#x5230;&#x6570;&#x5B66;&#x4EFB;&#x52A1;&#x65F6;&#xFF0C;&#x5B83;&#x5F62;&#x6210;&#x4E86;&#x4E00;&#x79CD;&#x57FA;&#x4E8E;Python&#x7684;MATLAB&#x7684;&#x5FEB;&#x901F;&#x66FF;&#x4EE3;&#x3002; <br></li>
+</ul>
+<h3 id="&#x4E00;&#x7EF4;&#x77E9;&#x9635;&#x7684;&#x521B;&#x5EFA;&#x548C;&#x6570;&#x636E;&#x7C7B;&#x578B;-">&#x4E00;&#x7EF4;&#x77E9;&#x9635;&#x7684;&#x521B;&#x5EFA;&#x548C;&#x6570;&#x636E;&#x7C7B;&#x578B; <br></h3>
+<pre><code class="lang-python"><span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
+<span class="hljs-keyword">import</span> random
+
+t1 = np.array([<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>])
+print(type(t1)) <span class="hljs-comment"># &lt;class &apos;numpy.ndarray&apos;</span>
+
+t1 = np.array(range(<span class="hljs-number">0</span>,<span class="hljs-number">10</span>,<span class="hljs-number">2</span>))
+t2 = np.arange(<span class="hljs-number">0</span>,<span class="hljs-number">10</span>,<span class="hljs-number">2</span>)
+print(t1,t2) <span class="hljs-comment"># &#x8FD9;&#x4E24;&#x79CD;&#x5199;&#x6CD5;&#x4E00;&#x6837;&#x7684;</span>
+print(t2.dtype) <span class="hljs-comment"># int32 &#x7C7B;&#x578B;&#x4E0D;&#x540C;&#x5360;&#x7528;&#x7A7A;&#x95F4;&#x4E0D;&#x540C;</span>
+
+t4 = np.arange(<span class="hljs-number">1</span>,<span class="hljs-number">10</span>,dtype=float) <span class="hljs-comment"># &#x8FD9;&#x6837;&#x6709;&#x65F6;&#x5019;&#x4F1A;&#x964D;&#x4F4E;&#x8D44;&#x6E90;&#x5360;&#x7528;</span>
+print(t4,t4.dtype)
+
+t5 = np.array([<span class="hljs-number">2</span>,<span class="hljs-number">9</span>,<span class="hljs-number">0</span>,<span class="hljs-number">1</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0</span>],dtype=bool)
+print(t5,t5.dtype)
+
+<span class="hljs-comment"># .astype() &#x6570;&#x636E;&#x7C7B;&#x578B;&#x8F6C;&#x6362;</span>
+t6 = t5.astype(<span class="hljs-string">&apos;int8&apos;</span>) <span class="hljs-comment"># &#x663E;&#x7136;&#x8FD9;&#x79CD;&#x8F6C;&#x6362;&#x6709;&#x98CE;&#x9669; &#x4F1A;&#x635F;&#x5931;&#x6216;&#x8005;&#x6539;&#x53D8;&#x539F;&#x6709;&#x7684;&#x6570;&#x636E;</span>
+print(t6,t6.dtype) <span class="hljs-comment"># [1 1 0 1 0 0] int8</span>
+
+t7 = np.array([random.random() <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(<span class="hljs-number">10</span>)])
+print(t7,t7.dtype)
+
+t8 = t7.round(<span class="hljs-number">2</span>) <span class="hljs-comment"># t8 = np.round(t7,2) &#x89C4;&#x8303;&#x5C0F;&#x6570;&#x4F4D;&#x6570; python&#x81EA;&#x5E26;.round()&#x51FD;&#x6570;</span>
+print(t8,t8.dtype)
+</code></pre>
+<p><img src="images/numpy&#x4E2D;&#x5E38;&#x89C1;&#x7684;&#x6570;&#x636E;&#x7C7B;&#x578B;.png" alt="numpy&#x4E2D;&#x5E38;&#x89C1;&#x7684;&#x6570;&#x636E;&#x7C7B;&#x578B;"> <br></p>
+<h3 id="&#x77E9;&#x9635;&#x7684;&#x5F62;&#x72B6;&#x548C;&#x7B80;&#x5355;&#x8BA1;&#x7B97;-">&#x77E9;&#x9635;&#x7684;&#x5F62;&#x72B6;&#x548C;&#x7B80;&#x5355;&#x8BA1;&#x7B97; <br></h3>
+<pre><code class="lang-python"><span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
+
+<span class="hljs-string">&apos;&apos;&apos;1 .shape &#x67E5;&#x770B;&#x77E9;&#x9635;&#x5F62;&#x72B6;&apos;&apos;&apos;</span>
+t1 = np.arange(<span class="hljs-number">2</span>)
+<span class="hljs-comment"># print(t1,t1.shape)</span>
+<span class="hljs-comment"># (10,)&#x4E0D;&#x4EE3;&#x8868;10&#x884C;1&#x5217; &#x4E00;&#x7EF4;&#x6570;&#x7EC4;&#x8FD9;&#x91CC;&#x7701;&#x7565;&#x8868;&#x793A;1&#x884C;10&#x5217; (10,1)&#x624D;&#x4EE3;&#x8868;10&#x884C;1&#x5217;</span>
+<span class="hljs-comment"># &#x4E0D;&#x80FD;&#x5C06;(10,)&#x4E0E;(10,1)&#x7B49;&#x540C;&#x1F604;</span>
+
+t2 = np.array([[<span class="hljs-number">0</span>,<span class="hljs-number">1</span>,<span class="hljs-number">2</span>],[<span class="hljs-number">3</span>,<span class="hljs-number">4</span>,<span class="hljs-number">5</span>]])
+<span class="hljs-comment"># print(t2,t2.shape) # (2, 3)&#x4EE3;&#x8868;2&#x884C;3&#x5217;</span>
+<span class="hljs-comment"># &#x53EF;&#x4EE5;&#x770B;&#x5230; shape&#x51FD;&#x6570;&#x7ED9;&#x51FA;&#x7684;&#x5143;&#x7EC4;&#x91CC;&#x9762;&#x6709;&#x51E0;&#x4E2A;&#x6570; &#x8FD9;&#x4E2A;&#x77E9;&#x9635;&#x5C31;&#x662F;&#x51E0;&#x7EF4;&#x77E9;&#x9635;</span>
+
+<span class="hljs-string">&apos;&apos;&apos;2 .reshape() &#x77E9;&#x9635;&#x8F6C;&#x578B;&apos;&apos;&apos;</span>
+t3 = np.arange(<span class="hljs-number">24</span>)
+t4 = t3.reshape((<span class="hljs-number">4</span>,<span class="hljs-number">6</span>)) <span class="hljs-comment"># 3*4=12</span>
+<span class="hljs-comment"># print(t4,t4.shape)</span>
+t5 = t3.reshape((<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>)) <span class="hljs-comment"># 2*3*4=24 2&#x5C42;3&#x884C;4&#x5217;</span>
+<span class="hljs-comment"># print(t5,t5.shape)</span>
+t6 = t5.reshape((<span class="hljs-number">4</span>,<span class="hljs-number">6</span>))
+<span class="hljs-comment"># t6 = t4.reshape((t4.shape[0]*t4.shape[1],)) # &#x76F4;&#x63A5;&#x964D;&#x4E3A;1&#x7EF4;&#x77E9;&#x9635;</span>
+t5 = t5.flatten() <span class="hljs-comment"># .flatten() &#x76F4;&#x63A5;&#x964D;&#x4E3A;1&#x7EF4;</span>
+
+<span class="hljs-string">&apos;&apos;&apos;3 &#x77E9;&#x9635;&#x7684;&#x7B80;&#x5355;&#x8BA1;&#x7B97; &#x77E9;&#x9635;&#x4E0E;&#x5B9E;&#x6570;&#xFF0C;&#x540C;&#x578B;&#x77E9;&#x9635;&#x52A0;&#x51CF;&#x4E58;&#x9664;&#x5C5E;&#x4E8E;&#x57FA;&#x672C;&#x77E5;&#x8BC6;
+&#x4F46;&#x662F;numpy&#x4E2D;&#x77E9;&#x9635;&#x7EF4;&#x5EA6;&#x4E0D;&#x5168;&#x4E00;&#x6837;&#x4E5F;&#x53EF;&#x4EE5;&#x8FDB;&#x884C;&#x6570;&#x5B66;&#x4E0A;&#x4E0D;&#x80FD;&#x8FDB;&#x884C;&#x7684;&#x8FD0;&#x7B97;&apos;&apos;&apos;</span>
+<span class="hljs-comment"># t7 = t2/0</span>
+<span class="hljs-comment"># print(t7) # nan&#x8868;&#x793A;&#x8FD9;&#x4E0D;&#x662F;&#x4E00;&#x4E2A;&#x6570; inf&#x8868;&#x793A;infinity &#x65E0;&#x7A77;&#x5927;&#x1F602;</span>
+t8 = t1.reshape(<span class="hljs-number">2</span>,<span class="hljs-number">1</span>)
+t9 = t1 + t8
+print(t1,t1.shape) <span class="hljs-comment"># &#x4E24;&#x4E2A;&#x4E0D;&#x540C;&#x578B;&#x7684;&#x77E9;&#x9635;&#x7684;&#x51CF;&#x6CD5; &#x5F53;&#x67D0;&#x4E00;&#x7EF4;&#x4E00;&#x6837;&#x65F6;&#x8FD8;&#x662F;&#x53EF;&#x4EE5;&#x7B97;&#x4E00;&#x4E0B;&#x7684;&#x1F602;</span>
+print(t8,t8.shape)
+print(t9,t9.shape)
+</code></pre>
+<h3 id="numpy&#x7684;&#x5E7F;&#x64AD;&#x539F;&#x5219;&#x1F600;-">numpy&#x7684;&#x5E7F;&#x64AD;&#x539F;&#x5219;&#x1F600; <br></h3>
+<ul>
+<li>&#x89C4;&#x5219;1&#xFF1A;&#x5982;&#x679C;&#x4E24;&#x4E2A;&#x6570;&#x7EC4;&#x7684;&#x7EF4;&#x5EA6;&#x4E0D;&#x76F8;&#x540C;&#xFF0C;&#x90A3;&#x4E48;&#x5C0F;&#x7EF4;&#x5EA6;&#x6570;&#x7EC4;&#x7684;&#x5F62;&#x72B6;&#x5C06;&#x4F1A;&#x5728;&#x6700;&#x5DE6;&#x8FB9;&#x8865;1</li>
+<li>&#x89C4;&#x5219;2&#xFF1A;&#x5982;&#x679C;&#x4E24;&#x4E2A;&#x6570;&#x7EC4;&#x7684;&#x5F62;&#x72B6;&#x5728;&#x4EFB;&#x4F55;&#x4E00;&#x4E2A;&#x7EF4;&#x5EA6;&#x4E0A;&#x90FD;&#x4E0D;&#x5339;&#x914D;&#xFF0C;&#x90A3;&#x4E48;&#x6570;&#x7EC4;&#x7684;&#x5F62;&#x72B6;&#x4F1A;&#x6CBF;&#x7740;&#x7EF4;&#x5EA6;&#x4E3A;1&#x6269;&#x5C55;&#x4EE5;&#x5339;&#x914D;&#x53E6;&#x5916;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#x7684;&#x5F62;&#x72B6;&#x3002;</li>
+<li>&#x89C4;&#x5219;3&#xFF1A;&#x5982;&#x679C;&#x4E24;&#x4E2A;&#x6570;&#x7EC4;&#x7684;&#x5F62;&#x72B6;&#x5728;&#x4EFB;&#x4F55;&#x4E00;&#x4E2A;&#x7EF4;&#x5EA6;&#x4E0A;&#x90FD;&#x4E0D;&#x5339;&#x914D;&#x5E76;&#x4E14;&#x6CA1;&#x6709;&#x4EFB;&#x4F55;&#x4E00;&#x4E2A;&#x7EF4;&#x5EA6;&#x4E3A;1,&#x90A3;&#x4E48;&#x4F1A;&#x5F15;&#x8D77;&#x5F02;&#x5E38;&#x3002;<br>
+&#x8FD8;&#x6709;&#x4E00;&#x79CD;&#x8868;&#x8FF0;&#x662F;&#xFF1A;&#x5982;&#x679C;&#x4E24;&#x4E2A;&#x77E9;&#x9635;&#x7684;&#x540E;&#x7F18;&#x7EF4;&#x5EA6;(trailing dimension&#xFF0C;&#x4ECE;&#x672B;&#x5C3E;&#x5F00;&#x59CB;&#x7B97;&#x8D77;&#x7684;&#x7EF4;&#x5EA6;)&#x7684;&#x8F74;&#x957F;&#x5EA6;&#x76F8;&#x7B26;&#x6216;&#x8005;&#x5176;&#x4E2D;&#x4E00;&#x65B9;&#x7684;&#x957F;&#x5EA6;&#x4E3A;1&#xFF0C;&#x5219;&#x8BA4;&#x4E3A;&#x8FD9;&#x4E24;&#x4E2A;&#x77E9;&#x9635;&#x662F;&#x5E7F;&#x64AD;&#x517C;&#x5BB9;&#x7684;&#x3002;&#x5E7F;&#x64AD;&#x4F1A;&#x5728;&#x7F3A;&#x5931;&#x548C;(&#x6216;)&#x957F;&#x5EA6;&#x4E3A;1&#x7684;&#x7EF4;&#x5EA6;&#x4E0A;&#x8FDB;&#x884C;&#x3002;<br>
+&#x1F600;&#x4E3E;&#x4E2A;&#x6817;&#x5B50;&#xFF1A;<br>
+(2,3,4)&#x77E9;&#x9635;&#x53EF;&#x4EE5;&#x548C;(3,4)&#x77E9;&#x9635;&#x8FDB;&#x884C;&#x8BA1;&#x7B97;&#xFF0C;&#x8FD9;&#x4E24;&#x4E2A;&#x77E9;&#x9635;&#x7684;&#x7EF4;&#x5EA6;&#x4E0D;&#x7B49;&#xFF0C;&#x4F46;&#x662F;(3,4)&#x7B49;&#x4EF7;&#x4E8E;(1,3,4)&#x8FD9;&#x4E24;&#x4E2A;&#x77E9;&#x9635;&#x7684;&#x7EF4;&#x5EA6;&#x5C31;&#x76F8;&#x7B49;&#x4E86;&#xFF0C;&#x9AD8;&#x9636;&#x7EF4;&#x5EA6;&#x7684;&#x8F74;&#x957F;&#x5EA6;&#x4E0D;&#x7B49;&#xFF0C;&#x6839;&#x636E;&#x539F;&#x5219;2&#xFF0C;&#x5C06;&#x6CBF;&#x7EF4;&#x5EA6;&#x4E3A;1&#x6269;&#x5C55;(1,3,4)&#x4E3A;(2,3,4)&#xFF0C;&#x663E;&#x7136;&#x8FD9;&#x4E2A;&#x65F6;&#x5019;&#x4E24;&#x4E2A;&#x77E9;&#x9635;&#x7684;&#x5F62;&#x72B6;&#x90FD;&#x662F;(2,3,4)&#x3002;<br>
+&#x540C;&#x7406;(4,2,5,4)&#x548C;(2,1,4)&#x4E5F;&#x53EF;&#x4EE5;&#x8BA1;&#x7B97;&#xFF0C;(2,1,4)&#x53EF;&#x4EE5;&#x6269;&#x5C55;&#x4E3A;(2,5,4)&#xFF0C;&#x518D;&#x8FDB;&#x4E00;&#x6B65;&#x6269;&#x5C55;&#x4E3A;(1,2,5,4)&#xFF0C;&#x518D;&#x8FDB;&#x4E00;&#x6B65;&#x6269;&#x5C55;&#x4E3A;(4,2,5,4)&#xFF0C;&#x8FD9;&#x6837;&#x4E24;&#x4E2A;&#x77E9;&#x9635;&#x7684;&#x5F62;&#x72B6;&#x5C31;&#x4E00;&#x6837;&#x4E86;&#x3002;<br><br>&#x540C;&#x7406;(2,3,4)&#x548C;(2,4)&#x5C31;&#x4E0D;&#x80FD;&#x8FDB;&#x884C;&#x8BA1;&#x7B97;&#x3002;<br>
+&#x90A3;&#x4E48;&#x6269;&#x5C55;&#x7684;&#x65B9;&#x5F0F;&#x662F;&#x600E;&#x6837;&#x5462;&#xFF1F;&#x663E;&#x7136;&#x4F1A;&#x60F3;&#x5F53;&#x7136;&#x7684;&#x8BA4;&#x4E3A;&#x4E0D;&#x5168;&#x7684;&#x5730;&#x65B9;&#x8865;0&#x5373;&#x53EF;&#xFF0C;&#x4F46;&#x662F;&#x5728;numpy&#x4E2D;&#x5E76;&#x4E0D;&#x662F;&#x8FD9;&#x6837;&#xFF0C;&#x5728;numpy&#x4E2D;&#x6CBF;&#x8F74;&#x957F;&#x5EA6;&#x4E3A;1&#x7684;&#x7EF4;&#x5EA6;&#x6269;&#x5C55;&#x4F1A;&#x590D;&#x5236;&#x81EA;&#x5DF1;&#x539F;&#x6765;&#x8F74;&#x957F;&#x5EA6;&#x4E3A;1&#x7684;&#x6570;&#x636E;&#x76F4;&#x5230;&#x8F74;&#x957F;&#x76F8;&#x7B49;&#x3002;&#x1F600; <br><pre><code>[2 3] + [2 = [4 5
+         3]   4 6]
+</code></pre></li>
+</ul>
+<h3 id="&#x8F74;axis-">&#x8F74;(Axis) <br></h3>
+<p>&#x5BF9;&#x4E8E;&#x4E00;&#x7EF4;&#x77E9;&#x9635; &#x884C;axis=0 <br>
+&#x5BF9;&#x4E8E;&#x4E8C;&#x7EF4;&#x77E9;&#x9635; &#x884C;axis=0 &#x5217;axis=1 <br>
+&#x5BF9;&#x4E8E;&#x4E09;&#x4F4D;&#x77E9;&#x9635; &#x5C42;axis=0 &#x884C;axis=1 &#x5217;axis=2 (&#x8FD9;&#x91CC;&#x7684;&#x5C42;&#x662F;&#x6211;&#x778E;&#x63B0;&#x7684;&#x1F625;)<br>
+&#x2026;&#x2026;</p>
+<h5 id="numpy&#x8BFB;&#x53D6;&#x6570;&#x636E;-">numpy&#x8BFB;&#x53D6;&#x6570;&#x636E; <br></h5>
+<p>&#x5BF9;&#x4E8E;numpy&#x6765;&#x8BF4;&#xFF0C;&#x663E;&#x7136;&#x8BFB;&#x53D6;&#x6570;&#x636E;&#x5E76;&#x4E0D;&#x662F;&#x4E13;&#x957F;&#xFF0C;&#x8FD9;&#x4E9B;&#x5DE5;&#x4F5C;&#x5C06;&#x7531;&#x540E;&#x9762;&#x4F1A;&#x4ECB;&#x7ECD;&#x7684;pandas&#x6A21;&#x5757;&#x6765;&#x5B9E;&#x73B0;&#xFF0C;&#x8FD9;&#x91CC;&#x4EC5;&#x7B80;&#x5355;&#x4ECB;&#x7ECD;&#x5C0F;&#x578B;&#x89C4;&#x8303;&#x7684;CSV(comma separated value &#x9017;&#x53F7;&#x5206;&#x9694;&#x503C;&#x6587;&#x4EF6;)&#x6587;&#x4EF6;&#x7684;&#x8BFB;&#x53D6;&#x3002; <br>
+numpy.load(fname, dtype=float, comments=&apos;#&apos;, delimiter=None, converters=None, skiprows=0, usecols=None, unpack=False, ndmin=0, encoding=&apos;bytes&apos;, max_rows=None) <br>
+frame &#x6587;&#x4EF6;&#xFF0C;&#x5B57;&#x7B26;&#x4E32;&#x6216;&#x4EA7;&#x751F;&#x5668;&#xFF0C;&#x53EF;&#x4EE5;&#x662F;.gz&#x6216;&#x8005;bz2&#x538B;&#x7F29;&#x6587;&#x4EF6; <br>
+dtype &#x6570;&#x636E;&#x7C7B;&#x578B; &#x9ED8;&#x8BA4;np.float <br>
+delimiter &#x5206;&#x9694;&#x5B57;&#x7B26;&#x4E32; &#x9ED8;&#x8BA4;&#x7A7A;&#x683C; <br>
+skiprows &#x8DF3;&#x8FC7;&#x524D;.&#x884C; &#x4E00;&#x822C;&#x9700;&#x8981;&#x8C03;&#x8FC7;&#x7B2C;&#x4E00;&#x884C;&#x8868;&#x5934; <br>
+usecols &#x8BFB;&#x53D6;&#x6307;&#x5B9A;&#x7684;&#x5217; &#x7D22;&#x5F15; &#x5143;&#x7EC4;&#x7C7B;&#x578B; <br>
+unpack &#x9ED8;&#x8BA4;false &#x5982;&#x679C;True &#x6570;&#x636E;&#x4F1A;&#x88AB;&#x8F6C;&#x7F6E; &#x8DDF;.transpose() &#x8F6C;&#x7F6E;&#x51FD;&#x6570;&#x4E00;&#x6837;&#x7684;&#x6548;&#x679C;<br></p>
+<h3 id="numpy&#x53D6;&#x503C;&#x548C;&#x5207;&#x7247;-">numpy&#x53D6;&#x503C;&#x548C;&#x5207;&#x7247; <br></h3>
+<pre><code class="lang-python"><span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
+
+a = np.arange(<span class="hljs-number">16</span>).reshape(<span class="hljs-number">4</span>,<span class="hljs-number">4</span>)
+<span class="hljs-comment"># a = [[0, 1, 2, 3],</span>
+<span class="hljs-comment">#      [4, 5, 6, 7],</span>
+<span class="hljs-comment">#      [8, 9, 10, 11],</span>
+<span class="hljs-comment">#      [12, 13, 14, 15]]</span>
+<span class="hljs-comment"># &#x5207;&#x7247;&#x64CD;&#x4F5C;&#x4E00;&#x76F4;&#x5728;&#x62A5;&#x9519;&#xFF0C;&#x627E;&#x4E86;&#x534A;&#x5929;&#x7684;bug &#x7136;&#x540E;&#x7A81;&#x7136;&#x53D1;&#x73B0;&#xFF0C;&#x8FD9;&#x4E2A; a &#x770B;&#x8D77;&#x6765;&#x5F88;&#x50CF;&#x77E9;&#x9635; &#x5176;&#x5B9E;&#x4E0D;&#x662F;&#x77E9;&#x9635;&#x1F602;</span>
+
+<span class="hljs-comment"># &#x77E9;&#x9635;&#x7684;&#x5207;&#x7247;&#x4E0E;&#x5217;&#x8868;&#x53D6;&#x503C;&#x5F88;&#x50CF; &#x4EE5; , &#x533A;&#x5206;&#x7EF4;&#x5EA6;  : &#x8FDB;&#x884C;&#x591A;&#x884C;&#x9009;&#x53D6;  [] &#x7EC4;&#x5408;&#x6307;&#x4EE4;</span>
+<span class="hljs-comment"># &#x53D6;&#x884C;</span>
+<span class="hljs-comment"># t1 = a[0]</span>
+<span class="hljs-comment"># t1 = a[1:]</span>
+<span class="hljs-comment"># t1 = a[[0,1,3]] # &#x55E8;&#x5440; &#x5C0F;&#x9519;&#x8BEF;&#x5BFC;&#x81F4;&#x534A;&#x5929;&#x627E;&#x4E0D;&#x5230;&#x539F;&#x56E0;=&#x3002;=</span>
+<span class="hljs-comment"># t1 = a[2:,2:]</span>
+<span class="hljs-comment"># t1 = a[1:3,1:3] # &#x6B63;&#x5E38;</span>
+<span class="hljs-comment"># t1 = a[[1,3],[1,3]] # &#x5F02;&#x5E38; &#x6CE8;&#x610F;&#x8FD9;&#x91CC;&#x7684;&#x8BA1;&#x7B97; [a,b] &#x8FD9;&#x79CD;&#x53D6;&#x503C;&#x662F;&#x5217;&#x8868;&#x5F0F;&#x53D6;&#x503C;&#xFF0C;&#x5BF9;&#x4E8E;(4,4)&#x7684;&#x77E9;&#x9635;&#xFF0C;[1,3] &#x53D6;&#x5927;&#x5217;&#x8868;&#x7684;&#x7D22;&#x5F15;&#x4E3A;1&#x548C;3&#x7684;&#x5217;&#x8868; &#x8FD4;&#x56DE;(2,4)&#x77E9;&#x9635; &#x518D;&#x6B21;&#x53D6;[1,3]&#xFF0C;&#x53D6;&#x7B2C;&#x4E00;&#x4E2A;&#x5217;&#x8868;&#x7684;&#x7D22;&#x5F15;&#x4E3A;1&#x548C;&#x7B2C;&#x4E8C;&#x4E2A;&#x5217;&#x8868;&#x7D22;&#x5F15;&#x4E3A;3&#x7684;&#x503C; &#x8FD4;&#x56DE;(1,2)&#x77E9;&#x9635; &#x8FD9;&#x4E2A;&#x77E9;&#x9635;&#x5B9E;&#x9645;&#x4E0A;&#x53D6;&#x7684;&#x662F;(1,1) (3,3) &#x8FD9;&#x4E24;&#x4E2A;&#x4F4D;&#x7F6E;&#x7684;&#x503C;</span>
+<span class="hljs-comment"># t1 = a[[1,3],1:3] # &#x6B63;&#x5E38;</span>
+<span class="hljs-comment"># t1 = a[1:3,[1,3]] # &#x6B63;&#x5E38;</span>
+<span class="hljs-comment"># t1 = a[[0,2:3],] # &#x8BED;&#x6CD5;&#x9519;&#x8BEF; &#x4E0D;&#x80FD;&#x5728;[]&#x5185;&#x53D6;: &#x4F46;&#x662F;&#x53EF;&#x4EE5;&#x7528;&#x4E0A;&#x9762;&#x4E24;&#x4E2A;&#x65B9;&#x6CD5;&#x4EE3;&#x66FF; &#x6BD5;&#x7ADF;1:3&#x5C31;&#x7B49;&#x4EF7;&#x4E8E;[1,2]&#x1F600;</span>
+<span class="hljs-comment"># print(t1)</span>
+</code></pre>
+<h3 id="numpy&#x4E2D;&#x6570;&#x503C;&#x7684;&#x4FEE;&#x6539;-">numpy&#x4E2D;&#x6570;&#x503C;&#x7684;&#x4FEE;&#x6539; <br></h3>
+<pre><code class="lang-python"><span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
+
+a = np.arange(<span class="hljs-number">25</span>).reshape((<span class="hljs-number">5</span>,<span class="hljs-number">5</span>))
+b = np.arange(<span class="hljs-number">25</span>).reshape((<span class="hljs-number">5</span>,<span class="hljs-number">5</span>))
+c = np.arange(<span class="hljs-number">25</span>).reshape((<span class="hljs-number">5</span>,<span class="hljs-number">5</span>))
+<span class="hljs-comment"># print(a &lt; 10) # &#x6CE8;&#x610F;&#x8FD9;&#x79CD; bool&#x7D22;&#x5F15; &#x8BED;&#x6CD5;</span>
+<span class="hljs-comment"># a[a &lt; 10] = 10</span>
+<span class="hljs-comment"># print(a) # []&#x4E2D;&#x7684;&#x8BED;&#x6CD5;&#x662F;&#x4FEE;&#x6539;&#x77E9;&#x9635;&#x7D22;&#x5F15;&#x548C;&#x5207;&#x7247;&#x7684;&#x90E8;&#x5206; &#x8981;&#x4FEE;&#x6539;&#x5C31;&#x53EA;&#x9700;&#x8981;&#x7D22;&#x5F15;&#x5230;&#x9700;&#x8981;&#x7684;&#x4E4B;&#x540E;&#x518D;&#x5916;&#x9762;&#x52A0;&#x4E0A; a[] &#x7136;&#x540E;&#x7528; = &#x8D4B;&#x503C;&#x5373;&#x53EF;</span>
+<span class="hljs-comment"># a[0:1] = 1</span>
+<span class="hljs-comment"># print(a) # &#x8FD9;&#x90E8;&#x5206;&#x7684;&#x5185;&#x5BB9;&#x5C31;&#x662F;&#x7528;&#x4E86;&#x4E2A;&#x8D4B;&#x503C;&#x8FD0;&#x7B97;&#x7B26; &#x4E0D;&#x7EC6;&#x8BF4;&#x4E86;</span>
+
+
+<span class="hljs-string">&apos;&apos;&apos;np.where() numpy&#x4E2D;&#x7684;&#x4E09;&#x5143;&#x8FD0;&#x7B97;&#x7B26;&apos;&apos;&apos;</span>
+a = np.where(a &lt; <span class="hljs-number">10</span>,<span class="hljs-number">10</span>,<span class="hljs-number">1</span>)
+<span class="hljs-comment"># &#x8868;&#x793A;&#x5C06;&#x77E9;&#x9635;a&#x4E2D;&#x6240;&#x6709;&#x503C;&#x5C0F;&#x4E8E;10&#x7684;&#x90E8;&#x5206;&#x66FF;&#x6362;&#x4E3A;10&#xFF0C;&#x4E0D;&#x6EE1;&#x8DB3;&#x8FD9;&#x4E2A;&#x6761;&#x4EF6;&#x7684;&#x6539;&#x4E3A;1 &#x8FD9;&#x4E09;&#x4E2A;&#x53C2;&#x6570;&#x7F3A;&#x4E00;&#x4E0D;&#x53EF; &#x7528;&#x6CD5;&#x6BD4;&#x8F83;&#x5355;&#x4E00; &#x6D4B;&#x8BD5;&#x4E86;&#x4E0B;&#x53EA;&#x80FD;&#x7B80;&#x5316;&#x5F88;&#x7B80;&#x5355;&#x7684;bool&#x7D22;&#x5F15; &#x800C;&#x4E14;&#x5C31;&#x7B80;&#x5316;&#x4E86;&#x4E00;&#x90E8; &#x7A0D;&#x5FAE;&#x590D;&#x6742;&#x4E00;&#x70B9;&#x7684;&#x5C31;&#x4E0D;&#x80FD;&#x5B9E;&#x73B0; &#x6709;&#x4EC0;&#x4E48;&#x610F;&#x4E49;&#x1F625;</span>
+
+<span class="hljs-string">&apos;&apos;&apos;.clip() &#x88C1;&#x526A;&#x5DE5;&#x5177;&apos;&apos;&apos;</span>
+b = b.clip(<span class="hljs-number">10</span>,<span class="hljs-number">20</span>)
+c = c.clip(<span class="hljs-number">20</span>,<span class="hljs-number">10</span>)
+print(b)
+print(c)
+<span class="hljs-comment"># &#x7528;&#x6CD5;&#x611F;&#x89C9;&#x66F4;&#x52A0;&#x5355;&#x4E00; &#x5C06;&#x77E9;&#x9635;&#x4E2D;&#x6240;&#x6709;&#x5C0F;&#x4E8E;10&#x7684;&#x66FF;&#x6362;&#x4E3A;10 &#x5927;&#x4E8E;20&#x7684;&#x66FF;&#x6362;&#x4E3A;20 &#x5F53;&#x7136;&#x8FD9;&#x4E9B;&#x8FD0;&#x7B97;&#x53EF;&#x80FD;&#x5728;numpy&#x4E2D;&#x4F1A;&#x6709;&#x8F83;&#x591A;&#x7684;&#x5E94;&#x7528;&#x3002;</span>
+<span class="hljs-comment"># &#x503C;&#x5F97;&#x6CE8;&#x610F;&#x7684;&#x662F;&#x8FD9;&#x4E24;&#x4E2A;&#x53C2;&#x6570;&#x7684;&#x4F4D;&#x7F6E;&#x662F;&#x56FA;&#x5B9A;&#x7684;&#xFF0C;&#x4EA4;&#x6362;&#x4F4D;&#x7F6E;&#x4F1A;&#x5F97;&#x5230;&#x4E0D;&#x4E00;&#x6837;&#x7684;&#x7ED3;&#x679C;&#xFF0C;&#x5C0F;&#x4E8E;20&#x7684;&#x66FF;&#x6362;&#x4E3A;20 &#x5927;&#x4E8E;10&#x7684;&#x66FF;&#x6362;&#x4E3A;10 &#x4F46;&#x662F;&#x8FD9;&#x79CD;&#x8BED;&#x6CD5;&#x6709;&#x70B9;&#x95EE;&#x9898; &#x8FD9;&#x4E2A;&#x8FD0;&#x7B97;&#x662F;&#x4ECE; = &#x53F3;&#x8FB9;&#x5F00;&#x59CB; &#x4ECE;&#x5DE6;&#x5F80;&#x53F3;&#x8FDB;&#x884C; &#x5148;&#x6267;&#x884C;&#x5C0F;&#x4E8E;20&#x7684;&#x66FF;&#x6362;&#x4E3A;20&#x7684;&#x90E8;&#x5206; &#x518D;&#x53BB;&#x6267;&#x884C;&#x5927;&#x4E8E;10&#x7684;&#x66FF;&#x6362;&#x4E3A;10 &#x4E0D;&#x4F1A;&#x53D1;&#x751F;&#x903B;&#x8F91;&#x9519;&#x8BEF;&#x1F625;</span>
+</code></pre>
+<h3 id="numpy&#x4E2D;&#x7684;nan&#x548C;inf-">numpy&#x4E2D;&#x7684;nan&#x548C;inf <br></h3>
+<h4 id="nan-not-a-numberfloat&#x7C7B;&#x578B;-">nan: not a number(float&#x7C7B;&#x578B;) <br></h4>
+<p>&#x5F53;0/0&#x65F6;&#xFF1B;&#x65E0;&#x7A77;&#x5927;&#x51CF;&#x65E0;&#x7A77;&#x5927;&#x65F6;&#xFF1B;&#x8BFB;&#x53D6;&#x672C;&#x5730;&#x6587;&#x4EF6;&#x4E3A;float&#xFF0C;&#x5982;&#x679C;&#x6709;&#x7F3A;&#x5931;&#x65F6; <br></p>
+<ol>
+<li>&#x4E24;&#x4E2A;nan&#x4E0D;&#x76F8;&#x7B49;<code>np.nan == np.nan  False</code>&#xFF0C;<code>np.nan != np.nan  True</code></li>
+<li>&#x5229;&#x7528;nan&#x8FD9;&#x4E00;&#x7279;&#x6027;&#x53EF;&#x4EE5;&#x5224;&#x65AD;&#x77E9;&#x9635;&#x4E2D;nan&#x7684;&#x4E2A;&#x6570;<code>np.count_nonzero(a!=a)</code>&#x8FD9;&#x662F;&#x4E2A;&#x53CC;&#x91CD;&#x5426;&#x5B9A;&#x53E5; <code>a!=a</code>&#x8FD4;&#x56DE;&#x5E03;&#x5C14;&#x7C7B;&#x578B;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x7406;&#x89E3;&#x4E3A; 0 1 &#x77E9;&#x9635;&#xFF0C;&#x7136;&#x540E;&#x7528;np.count_nonzero()&#x8BA1;&#x6570;&#x51FD;&#x6570;&#x8BA1;&#x7B97;&#x975E;&#x96F6;&#x6570;&#x503C;&#x7684;&#x4E2A;&#x6570;<br>&#x8FD9;&#x91CC;&#x7684;<code>a!=a</code>&#x8BED;&#x53E5; &#x53EF;&#x4EE5;&#x7528;<code>np.isnan(a)</code>&#x6765;&#x66FF;&#x6362;&#xFF0C;&#x8FD9;&#x662F;numpy&#x4E2D;&#x96C6;&#x6210;&#x7684;&#x51FD;&#x6570;&#xFF0C;&#x4E5F;&#x5373;<code>np.count_nonzero(np.isnan(a))</code>&#x4E24;&#x4E2A;&#x8BED;&#x53E5;&#x4E00;&#x6837;&#x7684;&#x6548;&#x679C; <br></li>
+<li>nan&#x4E0E;&#x4EFB;&#x4F55;&#x6570;&#x503C;&#x8BA1;&#x7B97;&#x7ED3;&#x679C;&#x90FD;&#x662F;nan&#xFF0C;&#x8FD9;&#x6837;&#x5904;&#x7406;&#x6570;&#x636E;&#x6709;&#x65F6;&#x5019;&#x4F1A;&#x4E0D;&#x65B9;&#x4FBF;&#xFF0C;&#x9700;&#x8981;&#x5BF9;nan&#x8FDB;&#x884C;&#x66FF;&#x6362;&#xFF0C;&#x4E00;&#x822C;&#x5C06;nan&#x66FF;&#x6362;&#x4E3A;&#x5747;&#x503C;(&#x4E2D;&#x503C;)&#x6216;&#x8005;&#x76F4;&#x63A5;&#x5220;&#x9664;&#x6709;nan&#x7684;&#x4E00;&#x884C;&#x1F625; <br> </li>
+</ol>
+<pre><code class="lang-python"><span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
+
+t1 = np.arange(<span class="hljs-number">12</span>).reshape((<span class="hljs-number">3</span>, <span class="hljs-number">4</span>)).astype(<span class="hljs-string">&apos;float&apos;</span>)
+t1[<span class="hljs-number">0</span>, <span class="hljs-number">1</span>:] = np.nan  <span class="hljs-comment"># &#x8D4B;&#x503C;&#x4FEE;&#x6539; &#x4E00;&#x822C;&#x662F;&#x5BF9;&#x5217;&#x505A;&#x4FEE;&#x6539;</span>
+print(t1)  <span class="hljs-comment"># .shape&#x8FD4;&#x56DE;&#x7684;&#x662F;&#x4E00;&#x4E2A;&#x5143;&#x7EC4; &#x8FD9;&#x91CC;&#x7684;[0]&#x5373;&#x4EE3;&#x8868;&#x7B2C;0&#x4E2A;&#x7EF4;&#x5EA6;&#x8F74;&#x957F;&#x5EA6; &#x4E5F;&#x5C31;&#x662F;&#x884C;&#x7684;&#x957F;&#x5EA6;</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">fill_nan</span><span class="hljs-params">(arry)</span>:</span>
+    <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(arry.shape[<span class="hljs-number">1</span>]):
+        tem_col = arry[:, i]  <span class="hljs-comment"># &#x53D6;&#x51FA;&#x5F53;&#x524D;&#x5217;</span>
+        nan_num = np.count_nonzero(tem_col != tem_col)
+        <span class="hljs-keyword">if</span> nan_num != <span class="hljs-number">0</span>:  <span class="hljs-comment"># &#x8BF4;&#x660E;&#x5F53;&#x524D;&#x5217;&#x6709;nan</span>
+            tem_col_not_nan = tem_col[tem_col == tem_col]
+            <span class="hljs-comment"># print(tem_col_nan)</span>
+            tem_col[tem_col != tem_col] = tem_col_not_nan.mean()
+            <span class="hljs-comment"># &#x81F3;&#x6B64; &#x5BF9;&#x77E9;&#x9635;&#x4E2D;nan&#x6570;&#x503C;&#x7684;&#x66FF;&#x6362;&#x5C31;&#x5B8C;&#x6210;&#x4E86; &#x5B9A;&#x4E49;&#x4E3A;&#x51FD;&#x6570; &#x65B9;&#x4FBF;&#x540E;&#x8C03;&#x7528;</span>
+    <span class="hljs-keyword">return</span> arry
+
+t1 = fill_nan(t1)
+print(t1)
+</code></pre>
+<h4 id="numpy&#x4E2D;&#x5E38;&#x7528;&#x7684;&#x7EDF;&#x8BA1;&#x51FD;&#x6570;-">numpy&#x4E2D;&#x5E38;&#x7528;&#x7684;&#x7EDF;&#x8BA1;&#x51FD;&#x6570; <br></h4>
+<ol>
+<li>&#x6C42;&#x548C;&#xFF1A; a.sum(axis=None) <br></li>
+<li>&#x5747;&#x503C;&#xFF1A; a.mean(axis=None) <br></li>
+<li>&#x4E2D;&#x503C;&#xFF1A; np.median(a,axis=None) <br></li>
+<li>&#x6700;&#x5927;&#x503C;&#xFF1A; a.max(axis=None) <br></li>
+<li>&#x6700;&#x5C0F;&#x503C;&#xFF1A; a.min(axis=None) <br></li>
+<li>&#x6781;&#x5DEE;&#xFF1A; np.ptp(a,axis=None) <br></li>
+<li>&#x6807;&#x51C6;&#x5DEE;&#xFF1A; a.std(axis=None) <br></li>
+</ol>
+<h4 id="inf-&#x6B63;&#x65E0;&#x7A77;--inf&#x8868;&#x793A;&#x8D1F;&#x65E0;&#x7A77;-">inf: &#x6B63;&#x65E0;&#x7A77; (-inf&#x8868;&#x793A;&#x8D1F;&#x65E0;&#x7A77;) <br></h4>
+<p>&#x5F53;&#x5206;&#x6BCD;&#x4E3A;0&#x5206;&#x5B50;&#x4E0D;&#x4E3A;0&#x65F6; &#x51FA;&#x73B0;&#x65E0;&#x7A77;&#x5927; <br></p>
+<h3 id="&#x77E9;&#x9635;&#x7684;&#x62FC;&#x63A5;-">&#x77E9;&#x9635;&#x7684;&#x62FC;&#x63A5; <br></h3>
+<p>np.vstack((a,b,c))  &#x5782;&#x76F4;&#x62FC;&#x63A5;(vertically) <br>
+np.hstack((a,b,c))  &#x6C34;&#x5E73;&#x62FC;&#x63A5;(horizontally) <br></p>
+<h4 id="&#x77E9;&#x9635;&#x7684;&#x884C;&#x5217;&#x4EA4;&#x6362;-">&#x77E9;&#x9635;&#x7684;&#x884C;&#x5217;&#x4EA4;&#x6362; <br></h4>
+<p>&#x5229;&#x7528;&#x77E9;&#x9635;&#x8D4B;&#x503C;&#x8BED;&#x53E5;&#x5373;&#x53EF;&#xFF1A; <br>
+&#x4EA4;&#x6362;&#x884C;<code>t[[a,b],:] = t[[b,a],:]</code> <br>
+&#x4EA4;&#x6362;&#x5217;<code>t[:,[a,b]] = t[[:,b,a]]</code> <br></p>
+<h3 id="numpy&#x751F;&#x6210;&#x968F;&#x673A;&#x6570;&#x1F600;-">numpy&#x751F;&#x6210;&#x968F;&#x673A;&#x6570;&#x1F600; <br></h3>
+<ol>
+<li>np.random.rand(d0,d1,...dn)  &#x521B;&#x5EFA;d0-dn&#x7EF4;&#x5EA6;&#x7684;&#x5747;&#x5300;&#x5206;&#x5E03;&#x7684;&#x968F;&#x673A;&#x6570;&#x77E9;&#x9635;&#xFF0C;float&#x7C7B;&#x578B;&#xFF0C;&#x8303;&#x56F4;(0,1) <br></li>
+<li>np.random.randn(d0,d1,...dn)  &#x521B;&#x5EFA;d0-dn&#x7EF4;&#x5EA6;&#x7684;&#x6807;&#x51C6;&#x6B63;&#x6001;&#x5206;&#x5E03;&#x7684;&#x968F;&#x673A;&#x6570;&#x77E9;&#x9635;&#xFF0C;float&#x7C7B;&#x578B;&#xFF0C;&#x5E73;&#x5747;&#x6570;0&#xFF0C;&#x6807;&#x51C6;&#x5DEE;1 <br></li>
+<li>.randint(min,max,(shape))  &#x4ECE;&#x7ED9;&#x5B9A;&#x7684;&#x8303;&#x56F4;&#x5185;&#x9009;&#x53D6;&#x6574;&#x5F62;&#x968F;&#x673A;&#x6570;&#xFF0C;&#x8303;&#x56F4;[min,max)&#x5F62;&#x72B6;&#x662F;shape <br></li>
+<li>np.random.uniform(min,max,(size))  &#x4EA7;&#x751F;&#x5177;&#x6709;&#x5747;&#x5300;&#x5206;&#x5E03;&#x7684;&#x77E9;&#x9635;&#xFF0C;&#x5F62;&#x72B6;&#x662F;size <br></li>
+<li>np.random.normal(loc,scale,(size))  &#x4ECE;&#x6307;&#x5B9A;&#x7684;&#x6B63;&#x6001;&#x5206;&#x5E03;&#x4E2D;&#x968F;&#x673A;&#x62BD;&#x53D6;&#x6837;&#x672C;&#xFF0C;&#x5206;&#x5E03;&#x4E2D;&#x5FC3;&#x662F;loc(&#x6982;&#x7387;&#x5206;&#x5E03;&#x7684;&#x5747;&#x503C;)&#xFF0C;&#x6807;&#x51C6;&#x5DEE;&#x662F;scale&#xFF0C;&#x5F62;&#x72B6;&#x662F;size <br></li>
+<li>np.random.seed(n)  &#x968F;&#x673A;&#x6570;&#x79CD;&#x5B50;&#xFF0C;n&#x662F;&#x7ED9;&#x5B9A;&#x7684;&#x79CD;&#x5B50;&#x503C;&#xFF0C;&#x7531;&#x4E8E;&#x8BA1;&#x7B97;&#x673A;&#x751F;&#x6210;&#x7684;&#x662F;&#x4F2A;&#x968F;&#x673A;&#x6570;&#xFF0C;&#x6240;&#x4EE5;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x8BBE;&#x5B9A;&#x76F8;&#x540C;&#x7684;&#x968F;&#x673A;&#x6570;&#x79CD;&#x5B50;&#x6765;&#x5F97;&#x5230;&#x76F8;&#x540C;&#x7684;&#x968F;&#x673A;&#x6570; <br></li>
+</ol>
+<h4 id="numpy&#x5E38;&#x89C1;&#x7684;&#x5176;&#x4ED6;&#x65B9;&#x6CD5;-">numpy&#x5E38;&#x89C1;&#x7684;&#x5176;&#x4ED6;&#x65B9;&#x6CD5; <br></h4>
+<ol>
+<li>&#x83B7;&#x53D6;&#x6700;&#x5927;&#x503C;&#x6700;&#x5C0F;&#x503C;&#x7684;&#x4F4D;&#x7F6E;&#xFF1A;    <ul>
+<li>np.argmax(a,axis=None)</li>
+<li>np.argmin(a,axis=None)</li>
+</ul>
+</li>
+<li>&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x5168;0&#x77E9;&#x9635;&#xFF1A; np.zeros((a,b))</li>
+<li>&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x5168;1&#x77E9;&#x9635;&#xFF1A; np.ones((a,b))</li>
+<li>&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x5BF9;&#x89D2;&#x7EBF;&#x4E3A;1&#x7684;&#x77E9;&#x9635;&#xFF1A; np.eye(a)</li>
+</ol>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="matplotlib.html" class="navigation navigation-prev " aria-label="Previous page: matplotlib">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="pandas.html" class="navigation navigation-next " aria-label="Next page: pandas">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"numpy","level":"1.4.2","depth":2,"next":{"title":"pandas","level":"1.4.3","depth":2,"path":"pandas.md","ref":"pandas.md","articles":[]},"previous":{"title":"matplotlib","level":"1.4.1","depth":2,"path":"matplotlib.md","ref":"matplotlib.md","articles":[]},"dir":"ltr"},"config":{"plugins":["github-buttons","mathjax","livereload"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"github-buttons":{},"mathjax":{"forceSVG":false,"version":"2.6-latest"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"kin","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"github-buttons":{"buttons":[{"user":"zhenlin-J","repo":"gitbook","type":"github","size":"small"}]},"title":"行者","language":"zh-hans","gitbook":"*","description":"python小白的笔记本"},"file":{"path":"numpy.md","mtime":"2019-07-29T11:03:35.233Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-08-04T11:06:55.409Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="https://cdn.mathjax.org/mathjax/2.6-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-mathjax/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
